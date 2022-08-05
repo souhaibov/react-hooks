@@ -1,0 +1,86 @@
+
+.film{
+    margin: auto 20px 50px 20px;
+    display: flex;
+    justify-content: stretch;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px #b2b2b2;
+}
+.description{
+    text-align: left;
+    margin: 100px 50px auto 50px;
+    font-style: italic;
+    text-align: justify;
+}
+img{
+    border-style: dotted;
+    width: 70vh;
+    border-radius: 30px;
+}
+h2{
+    color: rgb(81, 150, 241);
+}
+button{
+    cursor: pointer;
+    color: aliceblue;
+    background-color: rgb(10, 70, 235);
+    font-size: 22px;
+    width: 200px;
+    height: 50px;
+}
+
+.field{
+   display: flex;
+   justify-content: space-between;
+    width: 170vh;
+    font-size:20px;
+    margin: 15px 0px 15px 0px;
+    align-items: center;
+    
+}
+.field input{
+    padding: 9px;
+    background-color: rgb(209, 248, 235);
+}
+.rating{
+    width: 200px;
+    font-size:20px;
+    margin: 5px 5px 5px 5px;
+    
+}
+.watching{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.topBefore{
+    align-items: center;
+}
+#submit{
+   width: 140px;
+   margin-left: 20px;
+   height: 30px;
+   font-size: 16px;
+}
+.footer{
+    align-items: center;
+    background-color: #b6b3b3;
+    height: 50px;
+    
+}
+h4{
+    text-align: center;
+   color: rgb(3, 41, 41);
+}
+.textArea{
+    height: 100px;
+    width: 80vh;
+    margin-bottom: 0%;
+}
+.AddFilm{
+    width: 100vh;
+}
+.info{
+    width: 100%;
+}
